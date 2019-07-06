@@ -1,0 +1,303 @@
+#primario{
+
+   float: center;  
+   background: rgb(53, 53, 53);
+   fill-opacity: unset;
+   background-position: 100px;
+   width: 330px;
+   height: 550px;
+   opacity: 0.8;
+   margin: 30px;
+}
+#p{
+    background: rgb(252, 23, 23);
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80px;
+    height: 50px;
+    margin: 30px;
+    
+}
+
+input{
+    width: 210px;
+    height: 20px;
+    size: 20px,40px;
+    background-size: 40px;
+}
+
+html{
+  background-image: url("http://localhost/sesionstart/assets/img/fondo.jpg");
+  
+}
+
+h1{
+    color: rgb(250, 65, 65);
+}
+
+.ojos{
+    animation-name: invisible;
+    animation-duration: 5s;
+}
+.circulo{
+   position: absolute;
+   top: 20px;
+   left: 12px; 
+   width: 40px;
+   height: 40px;
+   background-color: rgb(243, 243, 243);
+   border-radius: 20px;
+}
+
+.circulon{
+    position: absolute;
+    top: 20px;
+    left: 45px; 
+    width: 40px;
+    height: 40px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 20px;
+ }
+
+.circulo-inferior{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    left: 10px;
+    background-color: rgb(0, 225, 255);
+    border-radius: 10px; 
+}
+
+.pupila{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 6px;
+    left: 6px;
+    background-color: black;
+    border-radius: 4px;
+}
+
+.body{
+    position: relative;
+    width: 100px;
+    height: 130px;
+    background-color: rgb(255, 217, 0);
+    border-radius: 5px;
+}
+
+.pests{
+    position: absolute;
+    top: 15px;
+    left: 22px;
+    width: 2px;
+    height: 10px;
+    background-color: black;
+}
+
+.pestas{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    width: 2px;
+    height: 10px;
+    background-color: black;
+}
+
+.pestasa{
+    position: absolute;
+    top: 15px;
+    left: 38px;
+    width: 2px;
+    height: 10px;
+    background-color: black;
+}
+
+.pest{
+    position: absolute;
+    top: 2px;
+}
+
+.pesta{
+    position: absolute;
+    top: 2px;
+    left: 35px;
+    width: 2px;
+    height: 10px;
+}
+
+.naris{
+    position: absolute;
+    width: 7px;
+    height: 15px;
+    top: 45px;
+    left: 45px;
+    background-color: rgb(255, 217, 0);
+    border: 1.5px solid black;
+    border-radius: 7px;
+    z-index: auto;
+    border-bottom: transparent;
+   
+    
+}
+
+.boca{
+    position: absolute;
+    top: 30px;
+    width: 60px;
+    height: 40px;
+    left: 20px;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    border-radius: 80px; 
+}
+
+.dientes{
+    position: absolute; 
+}
+
+.dien{
+    position: absolute;
+    top: 41px;
+    width: 6px;
+    height: 6px;
+    left: 31px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0.1px; 
+}
+
+.dient{
+    position: absolute;
+    top: 41px;
+    width: 6px;
+    height: 6px;
+    left: 21px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0.1px; 
+}
+
+
+.camisa{
+    position: absolute;
+    top: 85px;
+    width: 98px;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.pantalones{
+    position: absolute;
+    top: 100px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(61, 40, 40);
+}
+
+
+.cin{
+    position: absolute;
+    top: 6px;
+    left: 4px;
+    width: 20px;
+    height: 4px;
+    background-color: black; 
+}
+
+.cint{
+    position: absolute;
+    top: 6px;
+    left: 30px;
+    width: 40px;
+    height: 4px;
+    background-color: black; 
+}
+.cinta{
+    position: absolute;
+    top: 6px;
+    left: 75px;
+    width: 20px;
+    height: 4px;
+    background-color: black; 
+}
+
+.cuello{
+    position: absolute;
+    top: 0px;
+    left: 28px;
+    width: 40px; 
+    height: 12px; 
+    background: rgb(255, 255, 255);
+}
+
+.cuello-derecho{
+    position: absolute;
+    width: 0px; 
+    height: 0px; 
+    border-top: 10px solid rgb(29, 25, 32);
+    border-left: 12px solid transparent;
+    border-right: 5px solid transparent;
+
+}
+
+.cuello-izquierda{
+    position: absolute;
+    width: 0px; 
+    height: 0px;
+    left: 25px; 
+    border-top: 10px solid rgb(38, 36, 41);
+    border-right: 12px solid transparent;
+    border-left: 5px solid transparent;
+}
+
+
+.corbata-winsor{
+    position: absolute;
+    top: 0px;
+    width: 0px; 
+    height: 0px;
+    left: 43px; 
+    border-top: 10px solid rgb(252, 0, 0);
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+}
+
+.corbata-cuerpop{
+    position: absolute;
+    top: -15px;
+    width: 0px; 
+    height: 0px;
+    left: 39px; 
+    border-top: 20px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid rgb(252, 0, 0);
+}
+
+.corbata-cuerpo{
+    position: absolute;
+    top: 0px;
+    width: 0px; 
+    height: 0px;
+    left: 41px; 
+    border-top: 30px solid rgb(252, 0, 0);
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+
+@keyframes invisible{
+   0%{
+    opacity: 0;
+   }
+   50%{
+     opacity: 1;
+   }
+   100%{
+    opacity: 0.5;
+   }
+}    
+
+         
